@@ -1,0 +1,108 @@
+
+body{
+	background:#eee;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+form{width:100%;}
+
+.clear{clear:both;}
+
+.required{
+	color:red;
+	width:auto;
+	float:left;
+}
+
+input,textarea{float:left;}
+textarea{width: 90%; height: 100px;}
+table, tbody{width:100%;font-size: 14px;}
+input[type="submit"]{float:none;}
+input[type="text"]{width: 95%;}
+
+.currency{float:left;}
+
+/***********************/
+/*		Header.php	   */
+/***********************/
+
+.logo{
+  	width: 544px;
+  	position: relative;
+  	left: -40px;
+}
+
+#topArea{}
+
+#locationContainer{
+	width:50%;
+	float:left;
+}
+
+#subContainer{float:right;}
+#breadcrumbContainer{float:right;}
+
+
+
+.breadcrumb{
+	width: auto;
+	float: left;
+	padding: 10px;
+}
+
+.current-breadcrumb{
+	width: auto;
+	float: left;
+	padding: 10px;
+}
+
+/***********************/
+/*		Index.php	   */
+/***********************/
+
+.centered{
+	width:600px;
+	margin:0 auto;
+	height:100%;
+}
+
+#loginContainer{
+	width:500px;
+	margin:0 auto;
+}
+
+#email{width:auto;}
+
+/***********************/
+/*		step1.php	   */
+/***********************/
+
+#projectToken{
+  width: 40px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+/***********************/
+/*		step7.php	   */
+/***********************/
+
+td{
+	padding-top:10px;
+	padding-bottom:10px;
+	width: 20%;
+}
+
+
+/***********************/
+/*		step8.php	   */
+/***********************/
+
+#lastPage{width:900px;}
